@@ -8,7 +8,7 @@ rust-version = "1.60"
 exclude = ["/examples"]
 
 [dependencies]
-tauri = { version = "1" }
+tauri = { git = "https://github.com/luoffei/tauri.git", branch = "1.1.1"}
 
 [target.'cfg(target_os = "windows")'.dependencies.windows-sys]
 version = "0.42"
